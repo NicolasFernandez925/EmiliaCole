@@ -1,0 +1,103 @@
+*{
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(../img/emilia-music-top.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 160px;
+    background-position: right 0;
+    font-family: "Open Sans";
+    margin-left: 10px;
+}
+ul.menu{
+    margin-top: 25px;
+    text-align: right;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 20px 5px;
+}
+ul.menu li{
+    display: inline;
+    padding: 0px 10px;
+    border-left: 1px solid black;
+}
+ul.menu li:last-child{
+    border-right: 1px solid black;
+}
+ul.menu li a:hover{
+    color: grey;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul.icons{
+    margin-top: 10px;
+    text-align: right;
+    color: black;
+}
+h1{
+    font-size: 70px;
+    margin-top: 100px;
+    font-family: 'Raleway';
+    margin-bottom: 50px;
+}
+ul.direct{
+    margin-top: 25px;
+    list-style: none;
+}
+ul.direct li a{
+    color: grey
+}
+ul.direct li a:hover{
+    color: black;
+}
+h2#album{
+    font-family: 'Raleway';
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+ol.songs{
+    margin-top: 20px;
+    list-style: decimal-leading-zero;
+}
+h2#video1{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+p.one{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2#video2{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+p.two{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.goTop{
+    color: grey;
+}
+.goTop:hover{
+    color: black;
+}
+.fa-twitter:hover{
+    color: lightblue;
+}
+.fa-facebook-square:hover{
+    color: blue;
+}
+.fa-spotify:hover{
+    color: lightgreen;
+}
+.fa-amazon:hover{
+    color: rgb(255, 255, 109);
+}
+.fa-instagram:hover{
+    color: lightpink;
+}
+.fa-apple:hover{
+    color: grey;
+}
